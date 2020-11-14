@@ -1,7 +1,7 @@
 package it.unibo.oop.lab04.bank2;
 
 public class ClassicBankAccount extends AbstractBankAccount{
-	
+
 	public ClassicBankAccount(int usrId, double balance) {
 		super(usrId, balance);
 	}
@@ -11,7 +11,7 @@ public class ClassicBankAccount extends AbstractBankAccount{
 	}
 
 	protected double computeFee() {
-		return  AbstractBankAccount.MANAGEMENT_FEE ;
-	}
 
+		return ClassicBankAccount.MANAGEMENT_FEE;
+	}
 }
